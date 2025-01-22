@@ -1,0 +1,112 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "source",
+					"jsonFile" : "directory-source-Debug-5b5a50b02d94cdb5eb2c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.28"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "monolith",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "io-lat-read::@411ffd8adc737496fe19",
+					"jsonFile" : "target-io-lat-read-Debug-8df26e6ecf0b992592de.json",
+					"name" : "io-lat-read",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "monolith::@411ffd8adc737496fe19",
+					"jsonFile" : "target-monolith-Debug-ad1bb2430c246fb018cc.json",
+					"name" : "monolith",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "monolith-app::@411ffd8adc737496fe19",
+					"jsonFile" : "target-monolith-app-Debug-584be85c4ad3fce80bd4.json",
+					"name" : "monolith-app",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sort::@411ffd8adc737496fe19",
+					"jsonFile" : "target-sort-Debug-95a1db7f6e9f5b836b86.json",
+					"name" : "sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "sort-io-read::@411ffd8adc737496fe19",
+					"jsonFile" : "target-sort-io-read-Debug-21445f683097d34fcf6b.json",
+					"name" : "sort-io-read",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/workspaces/cpp-monolith-template/build",
+		"source" : "/workspaces/cpp-monolith-template"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

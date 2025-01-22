@@ -1,0 +1,9 @@
+/workspaces/cpp-monolith-template/build/CMakeFiles/edit_cache.dir
+/workspaces/cpp-monolith-template/build/CMakeFiles/rebuild_cache.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/io-lat-read.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/sort.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/sort-io-read.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/monolith.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/monolith-app.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/edit_cache.dir
+/workspaces/cpp-monolith-template/build/source/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,201 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/workspaces/cpp-monolith-template/source/*.cpp",
+			"paths" : 
+			[
+				"/workspaces/cpp-monolith-template/source/loaders/both/main.cpp",
+				"/workspaces/cpp-monolith-template/source/loaders/read/io-lat-read.cpp",
+				"/workspaces/cpp-monolith-template/source/loaders/read/main.cpp",
+				"/workspaces/cpp-monolith-template/source/loaders/sort/Sort.cpp",
+				"/workspaces/cpp-monolith-template/source/loaders/sort/main.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/Main.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/CommandIvoker.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/Shell.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/CdCommand.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/Command.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/ExitCommand.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/LsCommand.cpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/RunCommand.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/workspaces/cpp-monolith-template/source/*.hpp",
+			"paths" : 
+			[
+				"/workspaces/cpp-monolith-template/source/loaders/read/io-lat-read.hpp",
+				"/workspaces/cpp-monolith-template/source/loaders/sort/Sort.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/CommandInvoker.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/Shell.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/CdCommand.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/Command.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/ExitCommand.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/LsCommand.hpp",
+				"/workspaces/cpp-monolith-template/source/monolith/app/shell/commands/RunCommand.hpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.3/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/3.30.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-GNU-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/usr/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "cmake/CompileOptions.cmake"
+		},
+		{
+			"path" : "source/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/workspaces/cpp-monolith-template/build",
+		"source" : "/workspaces/cpp-monolith-template"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

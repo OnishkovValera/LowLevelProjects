@@ -1,0 +1,1 @@
+/usr/bin/c++ -g "CMakeFiles/monolith-app.dir/monolith/app/Main.cpp.o" -o monolith  libmonolith.a

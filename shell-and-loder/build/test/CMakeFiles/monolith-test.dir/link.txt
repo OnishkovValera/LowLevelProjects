@@ -1,0 +1,1 @@
+/usr/bin/c++ -O3 -DNDEBUG "CMakeFiles/monolith-test.dir/monolith/HelloWorldTest.cpp.o" "CMakeFiles/monolith-test.dir/monolith/TestMain.cpp.o" -o monolith-test  ../source/libmonolith.a ../lib/libgtest.a ../lib/libgmock.a ../lib/libgtest.a

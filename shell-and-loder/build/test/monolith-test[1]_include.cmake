@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/cpp-monolith-template/build/test/monolith-test[1]_tests.cmake")
+  include("/workspaces/cpp-monolith-template/build/test/monolith-test[1]_tests.cmake")
+else()
+  add_test(monolith-test_NOT_BUILT monolith-test_NOT_BUILT)
+endif()

@@ -1,0 +1,8 @@
+[
+{
+  "directory": "C:/Users/onish/Итмо/ВС/assignment-1-elf64-loader/cmake-build-debug",
+  "command": "C:\\Users\\onish\\AppData\\Local\\Programs\\CLion\\bin\\mingw\\bin\\gcc.exe -IC:/Users/onish/Итмо/ВС/assignment-1-elf64-loader/solution/src -IC:/Users/onish/Итмо/ВС/assignment-1-elf64-loader/solution/include -pedantic -Wall -Werror -Wno-unused -ggdb -g -fdiagnostics-color=always -o solution\\CMakeFiles\\elf64-loader.dir\\src\\main.c.obj -c C:\\Users\\onish\\Итмо\\ВС\\assignment-1-elf64-loader\\solution\\src\\main.c",
+  "file": "C:\\Users\\onish\\Итмо\\ВС\\assignment-1-elf64-loader\\solution\\src\\main.c",
+  "output": "solution\\CMakeFiles\\elf64-loader.dir\\src\\main.c.obj"
+}
+]
