@@ -12,4 +12,4 @@
 * [Собственный Shell и нагрузчики на С++](https://github.com/OnishkovValera/LowLevelProjects/tree/main/shell-and-loder)
 * [Динамическая библиотека для ввода/вывода с кэшированием на C++](https://github.com/OnishkovValera/LowLevelProjects/tree/main/io-cache)
 
-Описание каждого проекта и исходный код можно посмотреть по ссылке 
+Описание каждого проекта и исходный код можно посмотреть по ссылкам
