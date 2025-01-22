@@ -1,33 +1,23 @@
-# C++ Monolith App Template
+# IO-библиотека с кэшированием
 
-## Getting Started
+Для оптимизации работы с блочными устройствами в ОС существует кэш страниц с данными, которыми мы производим операции чтения и записи на диск. Такой кэш позволяет избежать высоких задержек при повторном доступе к данным, так как операция будет выполнена с данными в RAM, а не на диске (вспомним пирамиду памяти).
 
-1. Open the project in the VSCode.
+Реализован блочный кэш в пространстве пользователя в виде динамической библиотеки (dll или so). Политику вытеснения страниц - Random.
 
-2. Click "Reopen in Container" in a VSCode notification.
+Открытие файла по заданному пути файла, доступного для чтения. Процедура возвращает некоторый хэндл на файл.
+int open(const char *path).
 
-3. Do `bash ci/prepare.bash`.
+Закрытие файла по хэндлу.
+int close(int fd).
 
-4. Do `bash ci/precommit.bash`.
+Чтение данных из файла.
+ssize_t read(int fd, void buf[.count], size_t count).
 
-5. Replace `monolith` and `MONOLITH` with your project name.
+Запись данных в файл.
+ssize_t write(int fd, const void buf[.count], size_t count).
 
-6. Repeat steps 1-4.
+Перестановка позиции указателя на данные файла.
+​​​​​​​off_t lseek(int fd, off_t offset, int whence).
 
-## Notes
-
-- Application executable is available at `{build_dir}/source/{project_name}`.
-
-- To enable `benchmark` module configure the project with `{project_name}_BENCHMARK=ON`.
-
-- Benchmark executables are available at `{build_dir}/benchmark/{project_name}-bench-{bench_name}`.
-
-- Do not forget to use `Asan` build mode for debugging.
-
-- Press F5 to build and run tests under a debuger in VSCode UI.
-
-## Thanks
-
-- <https://gitlab.com/Lipovsky/twist>
-
-- <https://github.com/vityaman-edu/bst>
+Синхронизация данных из кэша с диском.
+int fsync(int fd).
